@@ -1,6 +1,6 @@
 # Collaborative Online Judge System
-##This is a full stack system supporting collaborative coding, editing, compiling and execution.
-Major Use Cases:
+This is a full stack system supporting collaborative coding, editing, compiling and execution.
+## Major Use Cases:
 1. Multiple users can edit the same piece of code simultaneously.
 2. A user can browse pre-stored coding problem list.
 3. A user can get details of a specific coding problem by clicking the problem in the list.
@@ -8,7 +8,7 @@ Major Use Cases:
 compiling, correctness and running time, will be displayed to user.
 
 
-* Build Instruction
+## Build Instruction
  1. Install NodeJs:
 
     sudo apt-get update
