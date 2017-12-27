@@ -8,8 +8,8 @@ declare var Auth0Lock: any;
 @Injectable()
 export class AuthService {
   // Configure Auth0
-  clientId: string = 'WOL3FLYnZ0SkkWOVH1uTdU-_YLPR6PNT';
-  domain: string = 'paysoncs50317021.auth0.com';
+  clientId: string = '';
+  domain: string = '';
   lock = new Auth0Lock(this.clientId, this.domain, {});
 
   constructor(private router: Router) {
